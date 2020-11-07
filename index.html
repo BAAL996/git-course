@@ -4,24 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lord Kalaban</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <form action="#" method="post" enctype="multipart/form-data">
+    <div>
+        <input placeholder="Никнейм" type="text" name="username" value="">
+    </div>
+    <div>
+        <input disabled placeholder="Пароль" type="password" name="userpass" value="">
+    </div>
+    <div>
+        <p><input checked type="radio" name="beer" value="larer">Светлое пиво</p>
+        <p><input type="radio" name="beer" value="dark">Темное пиво</p>
+    </div>
+    <br>
+    <div>
+        <button tabindex="1" type="submit">Отправить</button>
+        <button tabindex="2" type="reset">Очистить</button>
+    </div>
+    </form>
+    <div>
+        <p><input type="radio" name="beer_2" value="larer">Светлое пиво</p>
+        <p><input checked type="radio" name="beer_2" value="dark">Темное пиво</p>
+    </div>
     <header>
         <nav>
-            <h1 class="Tower of God">Tower of God</h1>
+            <h1 class="Tower_of_God">Tower of God</h1>
         </nav>
     </header>
+    <div>
+        <p><input type="checkbox" name="car" value="yes">Наличие авто!</p>
+        <p><input type="checkbox" name="car_1" value="yes">Наличие авто 2!</p>
+        <p><input type="checkbox" name="car_2" value="yes">Наличие авто 3!</p>
+        <p><input checked type="checkbox" name="car_3" value="yes">Наличие авто 4!</p>
+        <p><input type="file" name="foto"></p>
+    </div>
+    </div>
     <div >
         <h2 class="autograph_h1">Baal Leviathan</h2>
-        <img src="img/450_kallavan.png" alt="Нет данных" width="10%" height="10%"/>
-        <video width="50%" height="50%" controls="controls" poster="img/450_kallavan.png">
+        
+        <video width="50%" height="50%" autoplay controls="controls" poster="img/450_kallavan.png" loop="loop">
         <source src="video/TOG.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
-        <a href="video/TOG.mp4">Скачайте видео</a>.
+        <a href="video/TOG.mp4" targer="_blank">Скачайте видео</a>.
         </video>
     </div>
-
     <div>
+        <form action="#" method="post" enctype="multipart/form-data"></form>
+        <input type="password" name="" value="">
+    </div>
+    <ul>
+        <li>
+            Lorem ipsum dolor sit amet.
+        </li>
+        <li>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, ducimus?
+        </li>
+        <li>
+            Lorem ipsum dolor sit amet.
+        </li>
+    </ul>
+
+    <ol>
+        <li>
+        Lorem ipsum dolor sit amet.
+        </li>
+        <li>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, ducimus?
+        </li>
+        <li>
+            Lorem ipsum dolor sit amet.
+        </li>
+    </ol>
+    <div>
+        <textarea name="text"></textarea>
+    </div>
+    <br>
+    <div>
+        <select name="color">
+            <option value="red">Красный</option>
+            <option value="yellow">Желтый</option>
+            <option selected value="blue">Синий</option>
+        </select>
+    </div>
+    <br>
+    
+
+    <div class="div_fotter">
         <footer class="fotter">
             <p class="autograph">Baal Leviathan</p>
             <p class="autograph_email"><a>bl@yandex.ru</a></p>
